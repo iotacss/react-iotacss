@@ -27,10 +27,8 @@
   "homepage": "https://github.com/iotacss/react-iotacss#readme",
   "dependencies": {
     "classnames": "^2.2.5",
-    "iotacss": "^1.1.1",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^15.5.4"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -44,10 +42,13 @@
     "babel-register": "^6.24.1",
     "css-loader": "^0.28.3",
     "enzyme": "^2.8.2",
+    "iotacss": "^1.1.1",
     "jest": "^20.0.4",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
-    "react-addons-test-utils": "^15.5.1",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.6.0",
+    "react-test-renderer": "^15.5.4",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1",
