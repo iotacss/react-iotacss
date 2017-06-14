@@ -223,6 +223,21 @@ The available properties are the same as the utilities that come with iotaCSS:
 * uTransform
 * uWeight
 
+
+#### Margin / Padding
+
+**One important note for Margin and Padding utility properties.** As decribed in the docs for [Margin](https://www.iotacss.com/docs/utilities/margin/) and [Padding](https://www.iotacss.com/docs/utilities/padding/), you will need to add an extra '-' in the SCSS configuration for the extra margin/padding sizes like the following:
+
+```scss
+$iota-utils-margin-extra: (
+  -small: 10px
+);
+```
+
+so, it will generate a class with like '.u-mb-small' instead of '.u-mbsmall'. **This is required for React iotaCSS because it always uses a '-' to separate the margin/padding direction from the extra margin/padding size.**
+
+
+
 #### Example
 
 ```js
