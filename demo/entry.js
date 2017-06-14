@@ -14,7 +14,6 @@ import {
   List,
   Media,
   H1,
-  H2,
   P
 } from '../lib'
 
