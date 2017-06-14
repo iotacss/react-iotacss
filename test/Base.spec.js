@@ -27,4 +27,10 @@ describe('Base', () => {
     expect(wrapper.is('<h1 />'));
   })
 
+  test('It parses utility properties', () => {
+    const wrapper = shallow(<Base uText="center" />)
+
+    expect(wrapper.hasClass('u-text-center')).toBe(true);
+  })
+
 })
