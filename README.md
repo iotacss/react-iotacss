@@ -176,7 +176,7 @@ The Type is responsible for making responsive typography a piece of cake.
 <H4>Heading 4</H4>
 <H5>Heading 5</H5>
 <H6>Heading 6</H6>
-<P>Paragraph</H1>
+<P>Paragraph</P>
 ```
 
 **Note: H1 - H6 components do not provide any size. They only use the related HTML tag.**
