@@ -202,6 +202,7 @@ The available properties are the same as the utilities that come with iotaCSS:
 * uColor
 * uDisplay
 * uFloat
+* uM
 * uMt
 * uMr
 * uMb
@@ -209,6 +210,7 @@ The available properties are the same as the utilities that come with iotaCSS:
 * uMv
 * uMh
 * uOpacity
+* uP
 * uPt
 * uPr
 * uPb
