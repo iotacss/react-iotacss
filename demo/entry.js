@@ -21,7 +21,7 @@ import {
 class App extends React.Component {
   render() {
     return (
-      <Container gutter="small" >
+      <Container gutter="small">
 
         <PageSection uText="center">
           <H1 size="large" uMt uMb="all @sm large@md">A super simple example</H1>

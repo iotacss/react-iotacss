@@ -198,7 +198,7 @@ The available properties are the same as the utilities that come with iotaCSS:
 
 * uAlign
 * uBgcolor
-* uClearfix
+* uCf
 * uColor
 * uDisplay
 * uFloat
