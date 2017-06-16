@@ -241,35 +241,35 @@ so, it will generate a class with like '.u-mb-small' instead of '.u-mbsmall'. **
 
 #### Properties
 
-| Name       | Type                                               | Description        |
-| ---        | ---                                                | ---                |
-| uAlign     | oneOf(['top', 'bottom', 'middle', 'baseline'])     | Vertical Align     |
-| uBgcolor   | String                                             | Background Color   |
-| uCf        | Boolean                                            | Clearfix           |
-| uColor     | String                                             | Color              |
-| uDisplay   | oneOf(['absolute', 'fixed', 'relative', 'static']) | Display            |
-| uFloat     | oneOf(['left', 'right'])                           | Float              |
-| uM         | oneOfType([PropTypes.bool, PropTypes.string])      | Margin             |
-| uMt        | oneOfType([PropTypes.bool, PropTypes.string])      | Margin Top         |
-| uMr        | oneOfType([PropTypes.bool, PropTypes.string])      | Margin Right       |
-| uMb        | oneOfType([PropTypes.bool, PropTypes.string])      | Margin Bottom      |
-| uMl        | oneOfType([PropTypes.bool, PropTypes.string])      | Margin Left        |
-| uMv        | oneOfType([PropTypes.bool, PropTypes.string])      | Margin Vertical    |
-| uMh        | oneOfType([PropTypes.bool, PropTypes.string])      | Margin Horizontal  |
-| uOpacity   | String                                             | Opacity            |
-| uP         | oneOfType([PropTypes.bool, PropTypes.string])      | Padding            |
-| uPt        | oneOfType([PropTypes.bool, PropTypes.string])      | Padding Top        |
-| uPr        | oneOfType([PropTypes.bool, PropTypes.string])      | Padding Right      |
-| uPb        | oneOfType([PropTypes.bool, PropTypes.string])      | Padding Bottom     |
-| uPl        | oneOfType([PropTypes.bool, PropTypes.string])      | Padding Left       |
-| uPv        | oneOfType([PropTypes.bool, PropTypes.string])      | Padding Vertical   |
-| uPh        | oneOfType([PropTypes.bool, PropTypes.string])      | Padding Horizontal |
-| uPosition  | String                                             | Position           |
-| uPull      | String                                             | Offset After       |
-| uPush      | String                                             | Offset             |
-| uText      | oneOf(['left', 'right', 'center'])                 | Text Align         |
-| uTransform | oneOf(['capitalize', 'uppercase', 'lowercase'])    | Text Transform     |
-| uWeight    | String                                             | Font Weight        |
+| Name       | Type                                           | Description        |
+| ---        | ---                                            | ---                |
+| uAlign     | String                                         | Vertical Align     |
+| uBgcolor   | String                                         | Background Color   |
+| uCf        | Boolean                                        | Clearfix           |
+| uColor     | String                                         | Color              |
+| uDisplay   | String                                         | Display            |
+| uFloat     | String                                         | Float              |
+| uM         | oneOfType([PropTypes.bool, PropTypes.string])  | Margin             |
+| uMt        | oneOfType([PropTypes.bool, PropTypes.string])  | Margin Top         |
+| uMr        | oneOfType([PropTypes.bool, PropTypes.string])  | Margin Right       |
+| uMb        | oneOfType([PropTypes.bool, PropTypes.string])  | Margin Bottom      |
+| uMl        | oneOfType([PropTypes.bool, PropTypes.string])  | Margin Left        |
+| uMv        | oneOfType([PropTypes.bool, PropTypes.string])  | Margin Vertical    |
+| uMh        | oneOfType([PropTypes.bool, PropTypes.string])  | Margin Horizontal  |
+| uOpacity   | String                                         | Opacity            |
+| uP         | oneOfType([PropTypes.bool, PropTypes.string])  | Padding            |
+| uPt        | oneOfType([PropTypes.bool, PropTypes.string])  | Padding Top        |
+| uPr        | oneOfType([PropTypes.bool, PropTypes.string])  | Padding Right      |
+| uPb        | oneOfType([PropTypes.bool, PropTypes.string])  | Padding Bottom     |
+| uPl        | oneOfType([PropTypes.bool, PropTypes.string])  | Padding Left       |
+| uPv        | oneOfType([PropTypes.bool, PropTypes.string])  | Padding Vertical   |
+| uPh        | oneOfType([PropTypes.bool, PropTypes.string])  | Padding Horizontal |
+| uPosition  | String                                         | Position           |
+| uPull      | String                                         | Offset After       |
+| uPush      | String                                         | Offset             |
+| uText      | String                                         | Text Align         |
+| uTransform | String                                         | Text Transform     |
+| uWeight    | String                                         | Font Weight        |
 
 
 #### Example
