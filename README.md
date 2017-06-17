@@ -9,7 +9,7 @@ Stateless React Components for iotaCSS.
 * You can use [iotaPlate](https://github.com/iotacss/iotaplate) with it
 * Works on any application architecture
 * Great for prototyping
-* Production ready ( Not yet, optimizations coming soon, API won't change though, so, use it with no risk )
+* Production ready
 * Tested
 
 
