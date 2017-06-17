@@ -6,7 +6,7 @@
  * Type: Boolean
  */
 
-$iota-objs-media-aligned: false;
+$iota-objs-media-aligned: true;
 
 
 /**
@@ -16,7 +16,7 @@ $iota-objs-media-aligned: false;
  * Type: Boolean
  */
 
-$iota-objs-media-rev: false;
+$iota-objs-media-rev: true;
 
 
 /**
@@ -39,7 +39,9 @@ $iota-objs-media-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-media-gutter-extra: ();
+$iota-objs-media-gutter-extra: (
+  x4: $baseline-x4
+);
 
 
 /**
@@ -59,7 +61,7 @@ $iota-objs-media-flex: $iota-global-flex;
  * Type: Boolean
  */
 
-$iota-objs-media-res: false;
+$iota-objs-media-res: true;
 
 
 /**

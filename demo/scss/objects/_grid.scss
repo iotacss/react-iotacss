@@ -8,7 +8,7 @@
  * Type: Boolean
  */
 
-$iota-objs-grid-aligned: false;
+$iota-objs-grid-aligned: true;
 
 
 /**
@@ -28,7 +28,7 @@ $iota-objs-grid-rev: false;
  * Type: Number / Map 
  */
 
-$iota-objs-grid-gutter-default: $iota-global-gutter-default;
+$iota-objs-grid-gutter-default: $baseline;
 
 
 /**
@@ -42,7 +42,9 @@ $iota-objs-grid-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-grid-gutter-extra: ();
+$iota-objs-grid-gutter-extra: (
+  x4: $baseline-x4
+);
 
 
 /**

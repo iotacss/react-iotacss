@@ -5,7 +5,7 @@
  * Type: Number / Map
  */
 
-$iota-utils-margin-default: $iota-global-gutter-default;
+$iota-utils-margin-default: $spacing-default;
 
 
 /**
@@ -14,9 +14,7 @@ $iota-utils-margin-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-utils-margin-extra: (
-  large: 20px
-);
+$iota-utils-margin-extra: $spacing-extra;
 
 
 /**

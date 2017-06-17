@@ -17,7 +17,10 @@ $iota-objs-container-namespace: 'container';
  * Type: Number / List / Map
  */
 
-$iota-objs-container-gutter-default: $iota-global-gutter-default;
+$iota-objs-container-gutter-default: (
+  null: $baseline-x2,
+  sm  : $baseline-x3
+);
 
 
 /**

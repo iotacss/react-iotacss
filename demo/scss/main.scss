@@ -1,12 +1,14 @@
+@import 'settings/baseline';
 @import 'settings/core';
+@import 'settings/colors';
+@import 'settings/spacing';
 
 @import 'tools/core';
-// @import 'tools/ms';
-// @import 'tools/rtl';
-// @import 'tools/type';
+@import 'tools/ms';
 
 @import 'base/initialize';
 @import 'base/body';
+@import 'base/type';
 
 @import 'objects/container';
 @import 'objects/grid';
@@ -14,19 +16,11 @@
 @import 'objects/media';
 @import 'objects/type';
 
-// @import 'utilities/align';
 @import 'utilities/bgcolor';
-// @import 'utilities/clearfix';
-// @import 'utilities/color';
-// @import 'utilities/display';
-// @import 'utilities/float';
+@import 'utilities/color';
+@import 'utilities/display';
 @import 'utilities/margin';
-// @import 'utilities/opacity';
-// @import 'utilities/padding';
-// @import 'utilities/position';
-// @import 'utilities/pull';
-// @import 'utilities/push';
+@import 'utilities/padding';
 @import 'utilities/size';
 @import 'utilities/text';
-// @import 'utilities/transform';
-// @import 'utilities/weight';
+@import 'utilities/weight';

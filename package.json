@@ -42,6 +42,7 @@
     "babel-register": "^6.24.1",
     "css-loader": "^0.28.3",
     "enzyme": "^2.8.2",
+    "file-loader": "^0.11.2",
     "iotacss": "^1.1.1",
     "jest": "^20.0.4",
     "node-sass": "^4.5.3",

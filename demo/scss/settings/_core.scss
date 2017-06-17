@@ -7,7 +7,7 @@
  * Type: Unitless Number / List
  */
 
-$iota-global-columns: 2, 3, 6;
+$iota-global-columns: 2, 3;
 
 
 /**
@@ -31,7 +31,7 @@ $iota-global-components-namespace : 'c-';
  * Type: Number / List / Map
  */
 
-$iota-global-gutter-default: 10px;
+$iota-global-gutter-default: $baseline;
 
 
 /**
@@ -66,8 +66,8 @@ $iota-global-rtl: false;
  */
 
 $iota-global-breakpoints: (
-  sm  : "screen and ( min-width: 768px )",
-  md  : "screen and ( min-width: 1000px )"
+  xs  : "screen and ( max-width: 767px )",
+  sm  : "screen and ( min-width: 768px )"
 );
 
 

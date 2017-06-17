@@ -36,7 +36,7 @@ $iota-objs-list-span: false;
  * Type: Number / Map
  */
 
-$iota-objs-list-gutter-default: $iota-global-gutter-default;
+$iota-objs-list-gutter-default: $baseline;
 
 
 /**
@@ -48,7 +48,9 @@ $iota-objs-list-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-list-gutter-extra: ();
+$iota-objs-list-gutter-extra: (
+  x4: $baseline-x4
+);
 
 
 /**

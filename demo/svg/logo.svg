@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="118px" height="36px" viewBox="0 0 118 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.148282098" y="0.241109102" width="33.7552743" height="33.7552743" rx="7.37793852"></rect>
+        <filter x="-4.4%" y="-4.4%" width="108.9%" height="108.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.109157944   0 0 0 0 0.176475564   0 0 0 0 0.616284014  0 0 0 0.282099185 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="49.1527863%" cy="50.8753185%" fx="49.1527863%" fy="50.8753185%" r="50.8727149%" gradientTransform="translate(0.491528,0.508753),scale(1.000000,0.999927),translate(-0.491528,-0.508753)" id="radialGradient-3">
+            <stop stop-color="#B04FFF" offset="0%"></stop>
+            <stop stop-color="#AC4FFF" offset="28%"></stop>
+            <stop stop-color="#A04FFF" offset="57%"></stop>
+            <stop stop-color="#8C4FFF" offset="85%"></stop>
+            <stop stop-color="#7E4FFF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50.877425%" cy="49.1300548%" fx="50.877425%" fy="49.1300548%" r="50.8643656%" id="radialGradient-4">
+            <stop stop-color="#06CCC5" offset="0%"></stop>
+            <stop stop-color="#609FD7" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-153.000000, -20.000000)">
+            <g id="Group-3" transform="translate(154.000000, 21.000000)">
+                <g id="Group-2">
+                    <text id="iotaCasts" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="45" y="24">iotaCasts</tspan>
+                    </text>
+                    <g id="Logo">
+                        <g id="Rectangle-path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M9.90355636,9.99638336 C8.65163127,11.2455676 7.75256411,12.8037954 7.29764919,14.5128391 C10.7724259,13.5811137 14.480319,14.5740158 17.0245014,17.1175018 C19.5686837,19.6609879 20.5626006,23.3686091 19.6318264,26.8436407 C23.7191955,25.746382 26.6842254,22.2103961 27.0522302,17.9943393 C27.4202351,13.7782824 25.1126644,9.78206966 21.2772105,7.99325547 C17.4417566,6.20444128 12.897095,7.00484705 9.90355636,9.99638336 L9.90355636,9.99638336 Z" id="Shape" fill="url(#radialGradient-3)"></path>
+                        <path d="M17.0259192,17.1187462 C14.4814388,14.5759457 13.487914,10.868245 14.4200121,7.39385172 C9.69926978,8.65777805 6.5676515,13.1289475 6.99326452,17.997394 C7.41887753,22.8658404 11.278825,26.7257879 16.1472715,27.1514009 C21.015718,27.577014 25.4868874,24.4453957 26.7508137,19.7246534 C23.2764205,20.6567514 19.5687198,19.6632266 17.0259192,17.1187462 L17.0259192,17.1187462 Z" id="Shape" fill="url(#radialGradient-4)" style="mix-blend-mode: multiply;"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

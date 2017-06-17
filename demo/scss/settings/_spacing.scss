@@ -1,0 +1,13 @@
+// Spacing for Margin / Padding
+
+$spacing-default: 36px;
+
+$spacing-extra: (
+  -x2 : $baseline-x2,
+  -x3 : $baseline-x3,
+  -x4 : $baseline-x4,
+  -x5 : $baseline-x5,
+  -x6 : $baseline-x6,
+  -x7 : $baseline-x7,
+  -x8 : $baseline-x8
+);
