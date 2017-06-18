@@ -27,6 +27,12 @@ describe('Type', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It has a tagName property of p by default', () => {
+    const wrapper = shallow(<Type size="large" />)
+
+    expect(wrapper.prop('tagName')).toBe('p');
+  })
+
   test('It accepts tagName property', () => {
     const wrapper = shallow(<Type size="large" tagName="h1" />)
 
