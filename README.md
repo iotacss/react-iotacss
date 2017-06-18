@@ -275,9 +275,9 @@ so, it will generate a class with like '.u-mb-small' instead of '.u-mbsmall'. **
 #### Example
 
 ```js
-<H1 size="large" uText="center" uMb="all large@sm">Hello World</H1>
+<H1 size="large" uText="center" uMb>Hello World</H1>
 
-<h1 class="o-type-size u-mb u-mb-large@sm">Hello World</h1>
+<h1 class="o-type-size u-text-center u-mb">Hello World</h1>
 ```
 
 #### Responsive Utilities
