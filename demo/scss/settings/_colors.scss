@@ -1,6 +1,7 @@
 // Global Color Variables
 
 $color-white      : #FFFFFF;
+$color-blue       : #38B2FF;
 $color-blue-dark  : #0D2A4A;
 $color-purple     : #7070D5;
 $color-red        : #FC4A33;
@@ -12,7 +13,8 @@ $color-grey-light : #F5F5F7;
 // Colors map for Color and Background color utility
 
 $colors: (
-  white         : $color-white,
+  'white'       : $color-white,
+  'blue'        : $color-blue,
   'blue-dark'   : $color-blue-dark,
   'purple'      : $color-purple,
   'red'         : $color-red,
