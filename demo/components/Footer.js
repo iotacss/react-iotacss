@@ -21,7 +21,7 @@ const Footer = ({
             <Type uWeight="bold">Follow us on twitter</Type>
           </Media.Fixed>
           <Media.Fluid>
-            <Type>Copyright © 2017 Publisher. All rights reserved.</Type>
+            <Type>Copyright © 2017 iotaCSS. All rights reserved.</Type>
           </Media.Fluid>
         </Media>
       </Container>
