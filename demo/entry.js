@@ -10,7 +10,6 @@ import Footer from './components/Footer'
 import Button from './components/Button'
 import Card from './components/Card'
 import Post from './components/Post'
-import PageSection from './components/PageSection'
 
 import {
   Container,
