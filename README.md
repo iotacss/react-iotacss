@@ -55,7 +55,7 @@ const App = () => (
 )
 ```
 
-**Also, make sure you check the demo [here](https://github.com/harby/react-iotacss/tree/master/demo).**
+**Also, make sure you check the demo [here](https://github.com/iotacss/react-iotacss/tree/master/demo).**
 
 
 ## Documentation
