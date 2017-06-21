@@ -60,16 +60,37 @@ const App = () => (
 
 ## Documentation
 
+
+### Base
+
+The Base is responsible for translating `u` prefixed properties to iotaCSS utility classes, for example `uText="center"` will translate to `class="u-text-center"`. It's extended by all the React Components and you should use it in all your components if you want them to support React iotaCSS utility properties.
+
+#### Properties
+
+| Name     | Type    | Default | Description                 |
+| ---      | ---     | ---     | ---                         |
+| tagName  | String  | div     | TagName to be used          |
+
+#### Example
+
+```jsx
+<Base tagName="p" uText="center">
+  Some paragraph
+</Base>
+```
+
+
 ### Container
 
 The Container is responsible for creating smart, flexible and responsive containers.
 
 #### Properties
 
-| Name    | Type    | Default | Description                 |
-| ---     | ---     | ---     | ---                         |
-| gutter  | String  | ''      | Container extra gutter name |
-| size    | String  | ''      | Container extra size name   |
+| Name      | Type    | Default | Description                   |
+| ---       | ---     | ---     | ---                           |
+| gutter    | String  | ''      | Container extra gutter name   |
+| size      | String  | ''      | Container extra size name     |
+| className | String  | ''      | Allows to specify a CSS class |
 
 #### Example
 
@@ -92,6 +113,7 @@ The Grid is responsible for building a smart, flexible and responsive grid.
 | gutter      | String    | ''      | Grid extra gutter name  |
 | rev         | Boolean   | false   | Reversed grid           |
 | equalHeight | Boolean   | false   | Grid with equal height  |
+| className | String  | ''      | Allows to specify a CSS class |
 
 #### Example
 
@@ -117,6 +139,7 @@ The List is responsible for creating inline, block and span lists. You can use i
 | type   | oneOf(['inline', 'block', 'span']) | 'inline' | Type of list           |
 | align  | oneOf(['top', 'middle', 'bottom']) | 'top'    | Align list vertically  |
 | gutter | String                             | ''       | List extra gutter name |
+| className | String  | ''      | Allows to specify a CSS class |
 
 #### Example
 
@@ -143,6 +166,7 @@ Media is responsible for a common design pattern where there is a fixed and a fl
 | gutter | String                             | ''       | Media extra gutter name |
 | rev    | Boolean                            | false    | Reversed media          |
 | res    | Boolean                            | false    | Responsive media        |
+| className | String  | ''      | Allows to specify a CSS class |
 
 #### Example
 
@@ -167,6 +191,7 @@ The Type is responsible for making responsive typography a piece of cake.
 | ---      | ---    | ---      | ---             |
 | size     | String | ''       | Typography size |
 | tagName  | String | 'p'      | HTML tag to use |
+| className | String  | ''      | Allows to specify a CSS class |
 
 ```jsx
 <Type tagName="span" size="large">Large Text</Type>
@@ -179,7 +204,7 @@ The Type is responsible for making responsive typography a piece of cake.
 <P>Paragraph</P>
 ```
 
-**Note: H1 - H6 components do not provide any size. They only use the related HTML tag.**
+**Note: H1 - H6 and P components do not provide any size. They only use the related HTML tag.**
 
 
 ### Utilities
