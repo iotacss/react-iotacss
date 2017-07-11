@@ -33,4 +33,10 @@ describe('Base', () => {
     expect(wrapper.hasClass('u-text-center')).toBe(true);
   })
 
+  test('It accepts falsy non-string values for utility props', () => {
+    const wrapper = shallow(<Base uCf={false} />)
+
+    expect(wrapper.hasClass('u-cf')).toBe(false);
+  })
+
 })
