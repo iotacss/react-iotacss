@@ -1,6 +1,6 @@
 {
   "name": "react-iotacss",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "Stateless React Components for iotaCSS.",
   "main": "lib/index.js",
   "scripts": {
