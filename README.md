@@ -63,13 +63,13 @@ const App = () => (
 
 ### Base
 
-The Base is responsible for translating `u` prefixed properties to iotaCSS utility classes, for example `uText="center"` will translate to `class="u-text-center"`. It's extended by all the React Components and you should use it in all your components if you want them to support React iotaCSS utility properties.
+The Base is responsible for translating `u` prefixed properties to iotaCSS utility classes, for example `uText="center"` will translate to `class="u-text-center"`. It's extended by all the React Components and you should use it in all your components if you want them to support React iotaCSS utility properties. Properties that are not specific to `Base` will be passed down to to the rendered `tagName`.
 
 #### Properties
 
-| Name     | Type    | Default | Description                 |
-| ---      | ---     | ---     | ---                         |
-| tagName  | String  | div     | TagName to be used          |
+| Name      | Type    | Default | Description                 |
+| ---       | ---     | ---     | ---                         |
+| tagName   | String  | div     | TagName to be used          |
 
 #### Example
 

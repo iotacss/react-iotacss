@@ -39,4 +39,9 @@ describe('Base', () => {
     expect(wrapper.hasClass('u-cf')).toBe(false);
   })
 
+  test('It passes down any props that are not specific to Base', () => {
+    const wrapper = shallow(<Base title="Hello there" />)
+    expect(wrapper.getNode().props.title).toBe('Hello there');
+  })
+
 })
