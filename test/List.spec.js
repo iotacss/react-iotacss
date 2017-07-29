@@ -27,6 +27,12 @@ describe('List', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<List className="test" />)
+
+    expect(wrapper.hasClass('o-list')).toBe(true);
+  })
+
   test('It accepts type property', () => {
     const wrapper = shallow(<List type="span" />)
 

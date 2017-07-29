@@ -27,6 +27,12 @@ describe('Container', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<Container className="test" />)
+
+    expect(wrapper.hasClass('o-container')).toBe(true);
+  })
+
   test('It accepts gutter property', () => {
     const wrapper = shallow(<Container gutter="gutter-large" />)
 

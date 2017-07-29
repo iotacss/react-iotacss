@@ -27,4 +27,10 @@ describe('Media.Fluid', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<Media.Fluid className="test" />)
+
+    expect(wrapper.hasClass('o-media__fluid')).toBe(true);
+  })
+
 })
