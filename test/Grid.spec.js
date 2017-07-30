@@ -27,6 +27,12 @@ describe('Grid', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<Grid className="test" />)
+
+    expect(wrapper.hasClass('o-grid')).toBe(true);
+  })
+
   test('It accepts gutter property', () => {
     const wrapper = shallow(<Grid gutter="large" />)
 

@@ -27,6 +27,12 @@ describe('Type', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<Type size="large" className="test" />)
+
+    expect(wrapper.hasClass('o-type-large')).toBe(true);
+  })
+
   test('It has a tagName property of p by default', () => {
     const wrapper = shallow(<Type size="large" />)
 

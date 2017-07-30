@@ -27,6 +27,12 @@ describe('Media', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<Media className="test" />)
+
+    expect(wrapper.hasClass('o-media')).toBe(true);
+  })
+
   test('It accepts gutter property', () => {
     const wrapper = shallow(<Media gutter="large" />)
 

@@ -27,4 +27,10 @@ describe('Grid.Column', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<Grid.Column className="test" />)
+
+    expect(wrapper.hasClass('o-grid__col')).toBe(true);
+  })
+
 })

@@ -25,4 +25,10 @@ describe('H5', () => {
     expect(wrapper.hasClass('test')).toBe(true);
   })
 
+  test('It adds extra classes to base classes', () => {
+    const wrapper = shallow(<H5 size="large" className="test" />)
+
+    expect(wrapper.hasClass('o-type-large')).toBe(true);
+  })
+
 })
