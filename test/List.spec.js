@@ -51,4 +51,10 @@ describe('List', () => {
     expect(wrapper.hasClass('o-list--top')).toBe(true);
   })
 
+  test('It accepts tagName property', () => {
+    const wrapper = shallow(<List tagName="ol" />)
+
+    expect(wrapper.is('<ol />'));
+  })
+
 })
