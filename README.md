@@ -1,6 +1,7 @@
 # React iotaCSS
+[![npm version](https://badge.fury.io/js/react-iotacss.svg)](https://badge.fury.io/js/react-iotacss) [![Build Status](https://travis-ci.org/iotacss/react-iotacss.svg?branch=master)](https://travis-ci.org/iotacss/react-iotacss)
 
-Stateless React Components for iotaCSS.
+> Stateless React Components for iotaCSS.
 
 
 ## Features
@@ -186,7 +187,7 @@ Media is responsible for a common design pattern where there is a fixed and a fl
 The Type is responsible for making responsive typography a piece of cake.
 
 #### Properties
- 
+
 | Name     | Type   | Default  | Description     |
 | ---      | ---    | ---      | ---             |
 | size     | String | ''       | Typography size |
