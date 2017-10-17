@@ -43,18 +43,24 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
     "css-loader": "^0.28.3",
-    "enzyme": "^2.8.2",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
     "file-loader": "^0.11.2",
     "iotacss": "^1.1.1",
     "jest": "^20.0.4",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
-    "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.6.0",
-    "react-test-renderer": "^15.5.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/test/support/polyfills.js",
+      "<rootDir>/test/support/enzyme.js"
+    ]
   }
 }
