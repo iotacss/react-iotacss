@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Grid } from '../lib'
+import { Grid } from '../src'
 
 describe('Grid', () => {
 

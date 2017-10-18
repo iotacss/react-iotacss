@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { List } from '../lib'
+import { List } from '../src'
 
 describe('List.Item', () => {
 

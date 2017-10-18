@@ -18,7 +18,7 @@ import {
   H1,
   H2,
   P
-} from '../lib'
+} from '../src'
 
 
 class App extends React.Component {
@@ -26,7 +26,7 @@ class App extends React.Component {
     return (
       <div>
 
-        
+
         <Header uMb="x8" />
 
 

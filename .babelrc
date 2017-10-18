@@ -1,7 +1,48 @@
 {
   "presets": [
-    "es2015",
-    "stage-0",
+    "env",
     "react"
-  ]
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "6"
+          }
+        }]
+      ],
+      "plugins": [
+        ["transform-es2015-modules-commonjs", { "loose": true }]
+      ]
+    },
+
+    "cjs": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "6"
+          }
+        }]
+      ],
+      "plugins": [
+        ["transform-es2015-modules-commonjs", { "loose": true }]
+      ]
+    },
+
+    "esm": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "6"
+          },
+          "modules": false
+        }]
+      ]
+    }
+  }
 }

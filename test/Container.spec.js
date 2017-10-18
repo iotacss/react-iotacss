@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Container } from '../lib'
+import { Container } from '../src'
 
 describe('Container', () => {
 
