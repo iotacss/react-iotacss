@@ -22,13 +22,6 @@
     },
 
     "cjs": {
-      "presets": [
-        ["env", {
-          "targets": {
-            "node": "6"
-          }
-        }]
-      ],
       "plugins": [
         ["transform-es2015-modules-commonjs", { "loose": true }]
       ]
@@ -36,12 +29,7 @@
 
     "esm": {
       "presets": [
-        ["env", {
-          "targets": {
-            "node": "6"
-          },
-          "modules": false
-        }]
+        ["env", { "modules": false }]
       ]
     }
   }
