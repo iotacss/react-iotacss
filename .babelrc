@@ -4,13 +4,14 @@
       "presets": [
         "react",
         ["env", {
+          "useBuiltIns": true,
           "targets": {
             "node": "current"
           }
         }]
       ],
       "plugins": [
-        "transform-object-rest-spread",
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
         "transform-class-properties",
         ["transform-es2015-modules-commonjs", { "loose": true }]
       ]
@@ -19,10 +20,12 @@
     "cjs": {
       "presets": [
         "react",
-        "env"
+        ["env", {
+          "useBuiltIns": true
+        }]
       ],
       "plugins": [
-        "transform-object-rest-spread",
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
         "transform-class-properties",
         ["transform-es2015-modules-commonjs", { "loose": true }]
       ]
@@ -32,11 +35,12 @@
       "presets": [
         "react",
         ["env", {
+          "useBuiltIns": true,
           "modules": false
         }]
       ],
       "plugins": [
-        "transform-object-rest-spread",
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
         "transform-class-properties",
       ]
     },
@@ -45,11 +49,12 @@
       "presets": [
         "react",
         ["env", {
+          "useBuiltIns": true,
           "modules": false
         }]
       ],
       "plugins": [
-        "transform-object-rest-spread",
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
         "transform-class-properties"
       ]
     }

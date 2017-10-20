@@ -11,8 +11,9 @@
   "scripts": {
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir cjs",
     "build:esm": "cross-env BABEL_ENV=esm babel src --out-dir esm",
-    "build:umd": "cross-env BABEL_ENV=umd NODE_ENV=production webpack --config webpack.config.js",
-    "build": "npm run build:esm && npm run build:cjs && npm run build:umd",
+    "build:umd:dev": "cross-env BABEL_ENV=umd NODE_ENV=production webpack --config webpack.config.js",
+    "build:umd:prod": "cross-env BABEL_ENV=umd NODE_ENV=development webpack --config webpack.config.js",
+    "build": "npm run build:esm && npm run build:cjs && npm run build:umd:prod && npm run build:umd:dev",
     "dev": "cross-env BABEL_ENV=umd webpack-dev-server --config demo/webpack.config.js",
     "prepublish": "npm run build",
     "test": "jest",
