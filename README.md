@@ -1,6 +1,7 @@
 # React iotaCSS
+[![npm version](https://badge.fury.io/js/react-iotacss.svg)](https://badge.fury.io/js/react-iotacss) [![Build Status](https://travis-ci.org/iotacss/react-iotacss.svg?branch=master)](https://travis-ci.org/iotacss/react-iotacss)
 
-Stateless React Components for iotaCSS.
+> Stateless React Components for iotaCSS.
 
 
 ## Features
