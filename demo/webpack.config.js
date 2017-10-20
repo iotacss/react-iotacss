@@ -2,7 +2,7 @@ var path          = require('path')
 var webpack       = require('webpack')
 
 module.exports = {
-  entry: './demo/entry.js',
+  entry: path.join(__dirname, './entry.js'),
 
   output: {
     path: path.join(__dirname, 'demo'),
