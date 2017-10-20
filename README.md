@@ -61,8 +61,7 @@ const App = () => (
 
 ## Documentation
 
-> **Note**
-> This library uses `Object.assign` which is not supported by some legacy browsers.
+> **Note:** This library uses `Object.assign` which is not supported by some legacy browsers.
 > You should polyfill it if you need to support older browsers.
 
 ### Base
