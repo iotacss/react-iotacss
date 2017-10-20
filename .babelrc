@@ -1,15 +1,27 @@
 {
-  "presets": [
-    "env",
-    "react"
-  ],
   "plugins": [
     "transform-object-rest-spread",
     "transform-class-properties"
   ],
+
   "env": {
     "test": {
       "presets": [
+        "react",
+        ["env", {
+          "targets": {
+            "node": "current"
+          }
+        }]
+      ],
+      "plugins": [
+        ["transform-es2015-modules-commonjs", { "loose": true }]
+      ]
+    },
+
+    "cjs": {
+      "presets": [
+        "react",
         ["env", {
           "targets": {
             "node": "6"
@@ -21,20 +33,29 @@
       ]
     },
 
-    "cjs": {
-      "plugins": [
-        ["transform-es2015-modules-commonjs", { "loose": true }]
+    "esm": {
+      "presets": [
+        "react",
+        ["env", {
+          "targets": {
+            "node": "6"
+          },
+          "modules": false
+        }]
       ]
     },
 
-    "esm": {
+    "umd": {
       "presets": [
-        ["env", { "modules": false }]
+        "react",
+        ["env", {
+          "modules": false
+        }]
       ],
       "plugins": [
         "transform-object-rest-spread",
         "transform-class-properties"
-      ],
+      ]
     }
   }
 }

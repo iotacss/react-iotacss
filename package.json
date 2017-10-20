@@ -3,6 +3,7 @@
   "version": "1.2.14",
   "description": "Stateless React Components for iotaCSS.",
   "main": "cjs/index.js",
+  "jsnext:main": "esm/index.js",
   "module": "esm/index.js",
   "engine": {
     "node": ">=6"
@@ -10,8 +11,9 @@
   "scripts": {
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir cjs",
     "build:esm": "cross-env BABEL_ENV=esm babel src --out-dir esm",
-    "build": "npm run build:cjs && npm run build:esm",
-    "dev": "webpack-dev-server",
+    "build:umd": "cross-env BABEL_ENV=umd NODE_ENV=production webpack --config webpack.config.js",
+    "build": "npm run build:esm && npm run build:cjs && npm run build:umd",
+    "dev": "cross-env BABEL_ENV=umd webpack-dev-server --config demo/webpack.config.js",
     "prepublish": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -30,7 +32,8 @@
   ],
   "files": [
     "cjs",
-    "esm"
+    "esm",
+    "umd"
   ],
   "author": "Dimitris Psaropoulos <info@harby.me>",
   "license": "Apache-2.0",
