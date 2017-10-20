@@ -54,7 +54,7 @@ describe('List', () => {
   test('It accepts tagName property', () => {
     const wrapper = shallow(<List tagName="ol" />)
 
-    expect(wrapper.is('<ol />'));
+    expect(wrapper.is('ol'));
   })
 
 })

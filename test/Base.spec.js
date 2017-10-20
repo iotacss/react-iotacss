@@ -24,7 +24,7 @@ describe('Base', () => {
   test('It accepts tagName property', () => {
     const wrapper = shallow(<Base tagName="h1" />)
 
-    expect(wrapper.is('<h1 />'));
+    expect(wrapper.is('h1'));
   })
 
   test('It parses utility properties', () => {
@@ -47,7 +47,7 @@ describe('Base', () => {
 
   test('It passes down any props that are not specific to Base', () => {
     const wrapper = shallow(<Base title="Hello there" />)
-    expect(wrapper.getNode().props.title).toBe('Hello there');
+    expect(wrapper.getElement().props.title).toBe('Hello there');
   })
 
 })

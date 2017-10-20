@@ -1,6 +1,7 @@
 # React iotaCSS
+[![npm version](https://badge.fury.io/js/react-iotacss.svg)](https://badge.fury.io/js/react-iotacss) [![Build Status](https://travis-ci.org/iotacss/react-iotacss.svg?branch=master)](https://travis-ci.org/iotacss/react-iotacss)
 
-Stateless React Components for iotaCSS.
+> Stateless React Components for iotaCSS.
 
 
 ## Features
@@ -186,7 +187,7 @@ Media is responsible for a common design pattern where there is a fixed and a fl
 The Type is responsible for making responsive typography a piece of cake.
 
 #### Properties
- 
+
 | Name     | Type   | Default  | Description     |
 | ---      | ---    | ---      | ---             |
 | size     | String | ''       | Typography size |
@@ -313,4 +314,26 @@ React iotaCSS also supports responsive utilities with a similar syntax to iotaCS
 <Type uText="right center@sm" uMb="large" uMt="all large@sm">Right on all devices, center on tablets and up. Default margin bottom in all devices and large margin bottom in tablets and up</Type>
 
 <p class="u-text-right u-text-center@sm u-mb-large u-mt u-mt-large@sm" uMb="large" uMt="all large@sm">Right on all devices, center on tablets and up. Default margin bottom in all devices and large margin bottom in tablets and up</p>
+```
+
+## Testing
+
+Interactive mode
+
+```js
+// NPM
+npm run test:watch
+
+// Yarn
+yarn test:watch
+```
+
+Single run mode:
+
+```js
+// NPM
+npm test
+
+// Yarn
+yarn test
 ```
