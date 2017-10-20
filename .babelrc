@@ -1,9 +1,4 @@
 {
-  "plugins": [
-    "transform-object-rest-spread",
-    "transform-class-properties"
-  ],
-
   "env": {
     "test": {
       "presets": [
@@ -15,6 +10,8 @@
         }]
       ],
       "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties",
         ["transform-es2015-modules-commonjs", { "loose": true }]
       ]
     },
@@ -22,13 +19,11 @@
     "cjs": {
       "presets": [
         "react",
-        ["env", {
-          "targets": {
-            "node": "6"
-          }
-        }]
+        "env"
       ],
       "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties",
         ["transform-es2015-modules-commonjs", { "loose": true }]
       ]
     },
@@ -37,11 +32,12 @@
       "presets": [
         "react",
         ["env", {
-          "targets": {
-            "node": "6"
-          },
           "modules": false
         }]
+      ],
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties",
       ]
     },
 
