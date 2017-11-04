@@ -1,7 +1,62 @@
 {
-  "presets": [
-    "es2015",
-    "stage-0",
-    "react"
-  ]
+  "env": {
+    "test": {
+      "presets": [
+        "react",
+        ["env", {
+          "useBuiltIns": true,
+          "targets": {
+            "node": "current"
+          }
+        }]
+      ],
+      "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
+        "transform-class-properties",
+        ["transform-es2015-modules-commonjs", { "loose": true }]
+      ]
+    },
+
+    "cjs": {
+      "presets": [
+        "react",
+        ["env", {
+          "useBuiltIns": true
+        }]
+      ],
+      "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
+        "transform-class-properties",
+        ["transform-es2015-modules-commonjs", { "loose": true }]
+      ]
+    },
+
+    "esm": {
+      "presets": [
+        "react",
+        ["env", {
+          "useBuiltIns": true,
+          "modules": false
+        }]
+      ],
+      "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
+        "transform-class-properties",
+      ]
+    },
+
+    "umd": {
+      "presets": [
+        "react",
+        ["env", {
+          "useBuiltIns": true,
+          "modules": false
+        }]
+      ],
+      "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
+        "transform-class-properties"
+      ]
+    }
+  }
 }

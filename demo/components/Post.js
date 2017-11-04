@@ -5,7 +5,7 @@ import {
   Type,
   Media,
   P
-} from '../../lib'
+} from '../../src'
 
 
 const Post = ({

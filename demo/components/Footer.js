@@ -7,7 +7,7 @@ import {
   List,
   Media,
   Type
-} from '../../lib'
+} from '../../src'
 
 
 const Footer = ({

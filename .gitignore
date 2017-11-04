@@ -1,3 +1,6 @@
 .DS_Store
+cjs
+esm
+umd
 node_modules
 bundle.js

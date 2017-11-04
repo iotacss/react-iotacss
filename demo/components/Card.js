@@ -4,7 +4,7 @@ import classnames from 'classnames'
 
 import {
   Base
-} from '../../lib'
+} from '../../src'
 
 
 import './Card.scss'

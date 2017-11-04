@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { H5 } from '../lib'
+import { H5 } from '../src'
 
 describe('H5', () => {
 

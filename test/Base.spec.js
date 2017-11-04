@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Base from '../lib/Base'
+import Base from '../src/Base'
 
 describe('Base', () => {
 

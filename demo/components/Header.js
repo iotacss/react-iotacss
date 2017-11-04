@@ -8,7 +8,7 @@ import {
   Container,
   List,
   Media
-} from '../../lib'
+} from '../../src'
 
 
 const Header = ({
