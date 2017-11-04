@@ -30,7 +30,7 @@ class App extends React.Component {
         <Header uMb="x8" />
 
 
-        <Container uMb="x8">
+        <Container uMb="x8" uAi="end" uJc="center" uFd="rowrev">
 
 
           <Grid align="middle" uMb="x8">

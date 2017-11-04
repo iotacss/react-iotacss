@@ -1,5 +1,9 @@
 export default [
   {
+    name: 'ai',
+    namespace: 'ai'
+  },
+  {
     name: 'align',
     namespace: 'align'
   },
@@ -20,8 +24,16 @@ export default [
     namespace: ''
   },
   {
+    name: 'fd',
+    namespace: 'fd'
+  },
+  {
     name: 'float',
     namespace: 'float'
+  },
+  {
+    name: 'jc',
+    namespace: 'jc'
   },
   {
     name: 'm',

@@ -224,12 +224,15 @@ React iotaCSS uses a smart way to parse properties to utility classes:
 
 The available properties are the same as the utilities that come with iotaCSS:
 
+* uAi
 * uAlign
 * uBgcolor
 * uCf
 * uColor
 * uDisplay
+* uFd
 * uFloat
+* uJc
 * uM
 * uMt
 * uMr

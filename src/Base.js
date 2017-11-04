@@ -25,6 +25,8 @@ class Base extends Component {
     /** HTML element or React component to render */
     children: PropTypes.node,
 
+    /** Applies vertical align using align items */
+    uAi: PropTypes.string,
     /** Applies vertical align using align utility */
     uAlign: PropTypes.string,
     /** Applies background color value using bgcolor utility */
@@ -35,8 +37,12 @@ class Base extends Component {
     uColor: PropTypes.string,
     /** Applies display type using display utility */
     uDisplay: PropTypes.string,
+    /** Applies flex direction using flex direction utility */
+    uFd: PropTypes.string,
     /** Applies float direction using float utility */
     uFloat: PropTypes.string,
+    /** Applies horizontal alignment using justify content utility */
+    uJc: PropTypes.string,
     /** Applies margin using margin utility */
     uM: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
     /** Applies margin top using margin utility */
