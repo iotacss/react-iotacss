@@ -7,7 +7,7 @@ export default (props) => {
   const classNames = propKeys.map(propKey => {
     const utilityKey = propKey.substr(1).toLowerCase()
     const utilityValue = props[propKey] === true ? '' : props[propKey]
-    const utility = utilities.find(util => { return util.name.toLowerCase() === utilityKey })
+    const utility = utilities.filter(util => { return util.name.toLowerCase() === utilityKey })[0]
 
     if (utility) {
       const utilityValues = typeof utilityValue === 'string' ? utilityValue.split(' ') : [];
@@ -22,7 +22,7 @@ export default (props) => {
 
         if (utilityValue === 'all') {
           utilityValue = ''
-        } else if (utilityValue.startsWith('@')) {
+        } else if (utilityValue.charAt(0) === '@') {
           utilityValue.replace('@', '')
           className += utilityValue
         } else {
